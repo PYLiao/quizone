@@ -1,1 +1,6 @@
-<h1>hahahaha</h1>
+<h1>Show me your ideas</h1>
+  <%= simple_form_for @test do |f| %>
+    <%= f.input :name %>
+    <%= f.input :idea %>
+    <%= f.submit 'Create' %>
+  <% end %>
