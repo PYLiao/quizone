@@ -1,6 +1,6 @@
-class CreateIdeas < ActiveRecord::Migration
+class CreateTests < ActiveRecord::Migration
   def change
-    create_table :ideas do |t|
+    create_table :tests do |t|
 
     	t.string :name
     	t.text :idea
