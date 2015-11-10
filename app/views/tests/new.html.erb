@@ -1,6 +1,8 @@
-<h1>Show me your ideas</h1>
+<div class="col-xs-10 col-xs-offset-1">
+	<b>Show me your ideas</b>
   <%= simple_form_for @test do |f| %>
     <%= f.input :name %>
     <%= f.input :idea %>
-    <%= f.submit 'Create' %>
+    <%= f.submit 'Create', :class => "btn btn-warning" %>
   <% end %>
+</div>
