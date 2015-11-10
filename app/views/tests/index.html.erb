@@ -1,5 +1,8 @@
-<h1><%= link_to 'Share your idea', new_test_path, :class => 'btn btn-warning' %></h1>
+<div class="ohohoh-box col-xs-10 col-xs-offset-1"
+<h1><%= link_to 'Share your idea', new_test_path, :class => 'btn btn-warning center-block col-xs-2' %></h1>
+<div class="clear"></div>
 <% @tests.each do |test| %>
 	<i><%= test.name %></i>
 	<p><%= test.idea %></p>
 	<% end %>
+	<div />
